@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7A0F3A2C4D1DD7008064F6 /* lixo_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0F392C4D1DD7008064F6 /* lixo_iosApp.swift */; };
+		CE7A0F3C2C4D1DD7008064F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0F3B2C4D1DD7008064F6 /* ContentView.swift */; };
+		CE7A0F3E2C4D1DD8008064F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7A0F3D2C4D1DD8008064F6 /* Assets.xcassets */; };
+		CE7A0F412C4D1DD8008064F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7A0F402C4D1DD8008064F6 /* Preview Assets.xcassets */; };
+		CE7A0F4B2C4D1DD9008064F6 /* lixo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0F4A2C4D1DD9008064F6 /* lixo_iosTests.swift */; };
+		CE7A0F552C4D1DD9008064F6 /* lixo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0F542C4D1DD9008064F6 /* lixo_iosUITests.swift */; };
+		CE7A0F572C4D1DD9008064F6 /* lixo_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0F562C4D1DD9008064F6 /* lixo_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7A0F472C4D1DD9008064F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7A0F2E2C4D1DD7008064F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7A0F352C4D1DD7008064F6;
+			remoteInfo = "lixo-ios";
+		};
+		CE7A0F512C4D1DD9008064F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7A0F2E2C4D1DD7008064F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7A0F352C4D1DD7008064F6;
+			remoteInfo = "lixo-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7A0F362C4D1DD7008064F6 /* lixo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lixo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7A0F392C4D1DD7008064F6 /* lixo_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lixo_iosApp.swift; sourceTree = "<group>"; };
+		CE7A0F3B2C4D1DD7008064F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE7A0F3D2C4D1DD8008064F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7A0F402C4D1DD8008064F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE7A0F462C4D1DD9008064F6 /* lixo-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lixo-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7A0F4A2C4D1DD9008064F6 /* lixo_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lixo_iosTests.swift; sourceTree = "<group>"; };
+		CE7A0F502C4D1DD9008064F6 /* lixo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lixo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7A0F542C4D1DD9008064F6 /* lixo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lixo_iosUITests.swift; sourceTree = "<group>"; };
+		CE7A0F562C4D1DD9008064F6 /* lixo_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lixo_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7A0F332C4D1DD7008064F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7A0F432C4D1DD9008064F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7A0F4D2C4D1DD9008064F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7A0F2D2C4D1DD7008064F6 = {
+			isa = PBXGroup;
+			children = (
+				CE7A0F382C4D1DD7008064F6 /* lixo-ios */,
+				CE7A0F492C4D1DD9008064F6 /* lixo-iosTests */,
+				CE7A0F532C4D1DD9008064F6 /* lixo-iosUITests */,
+				CE7A0F372C4D1DD7008064F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7A0F372C4D1DD7008064F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A0F362C4D1DD7008064F6 /* lixo-ios.app */,
+				CE7A0F462C4D1DD9008064F6 /* lixo-iosTests.xctest */,
+				CE7A0F502C4D1DD9008064F6 /* lixo-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7A0F382C4D1DD7008064F6 /* lixo-ios */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A0F392C4D1DD7008064F6 /* lixo_iosApp.swift */,
+				CE7A0F3B2C4D1DD7008064F6 /* ContentView.swift */,
+				CE7A0F3D2C4D1DD8008064F6 /* Assets.xcassets */,
+				CE7A0F3F2C4D1DD8008064F6 /* Preview Content */,
+			);
+			path = "lixo-ios";
+			sourceTree = "<group>";
+		};
+		CE7A0F3F2C4D1DD8008064F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A0F402C4D1DD8008064F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE7A0F492C4D1DD9008064F6 /* lixo-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A0F4A2C4D1DD9008064F6 /* lixo_iosTests.swift */,
+			);
+			path = "lixo-iosTests";
+			sourceTree = "<group>";
+		};
+		CE7A0F532C4D1DD9008064F6 /* lixo-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A0F542C4D1DD9008064F6 /* lixo_iosUITests.swift */,
+				CE7A0F562C4D1DD9008064F6 /* lixo_iosUITestsLaunchTests.swift */,
+			);
+			path = "lixo-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7A0F352C4D1DD7008064F6 /* lixo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7A0F5A2C4D1DD9008064F6 /* Build configuration list for PBXNativeTarget "lixo-ios" */;
+			buildPhases = (
+				CE7A0F322C4D1DD7008064F6 /* Sources */,
+				CE7A0F332C4D1DD7008064F6 /* Frameworks */,
+				CE7A0F342C4D1DD7008064F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lixo-ios";
+			productName = "lixo-ios";
+			productReference = CE7A0F362C4D1DD7008064F6 /* lixo-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7A0F452C4D1DD9008064F6 /* lixo-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7A0F5D2C4D1DD9008064F6 /* Build configuration list for PBXNativeTarget "lixo-iosTests" */;
+			buildPhases = (
+				CE7A0F422C4D1DD9008064F6 /* Sources */,
+				CE7A0F432C4D1DD9008064F6 /* Frameworks */,
+				CE7A0F442C4D1DD9008064F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7A0F482C4D1DD9008064F6 /* PBXTargetDependency */,
+			);
+			name = "lixo-iosTests";
+			productName = "lixo-iosTests";
+			productReference = CE7A0F462C4D1DD9008064F6 /* lixo-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE7A0F4F2C4D1DD9008064F6 /* lixo-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7A0F602C4D1DD9008064F6 /* Build configuration list for PBXNativeTarget "lixo-iosUITests" */;
+			buildPhases = (
+				CE7A0F4C2C4D1DD9008064F6 /* Sources */,
+				CE7A0F4D2C4D1DD9008064F6 /* Frameworks */,
+				CE7A0F4E2C4D1DD9008064F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7A0F522C4D1DD9008064F6 /* PBXTargetDependency */,
+			);
+			name = "lixo-iosUITests";
+			productName = "lixo-iosUITests";
+			productReference = CE7A0F502C4D1DD9008064F6 /* lixo-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7A0F2E2C4D1DD7008064F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE7A0F352C4D1DD7008064F6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CE7A0F452C4D1DD9008064F6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CE7A0F352C4D1DD7008064F6;
+					};
+					CE7A0F4F2C4D1DD9008064F6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CE7A0F352C4D1DD7008064F6;
+					};
+				};
+			};
+			buildConfigurationList = CE7A0F312C4D1DD7008064F6 /* Build configuration list for PBXProject "lixo-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7A0F2D2C4D1DD7008064F6;
+			productRefGroup = CE7A0F372C4D1DD7008064F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7A0F352C4D1DD7008064F6 /* lixo-ios */,
+				CE7A0F452C4D1DD9008064F6 /* lixo-iosTests */,
+				CE7A0F4F2C4D1DD9008064F6 /* lixo-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7A0F342C4D1DD7008064F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A0F412C4D1DD8008064F6 /* Preview Assets.xcassets in Resources */,
+				CE7A0F3E2C4D1DD8008064F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7A0F442C4D1DD9008064F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7A0F4E2C4D1DD9008064F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7A0F322C4D1DD7008064F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A0F3C2C4D1DD7008064F6 /* ContentView.swift in Sources */,
+				CE7A0F3A2C4D1DD7008064F6 /* lixo_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7A0F422C4D1DD9008064F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A0F4B2C4D1DD9008064F6 /* lixo_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7A0F4C2C4D1DD9008064F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A0F572C4D1DD9008064F6 /* lixo_iosUITestsLaunchTests.swift in Sources */,
+				CE7A0F552C4D1DD9008064F6 /* lixo_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7A0F482C4D1DD9008064F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7A0F352C4D1DD7008064F6 /* lixo-ios */;
+			targetProxy = CE7A0F472C4D1DD9008064F6 /* PBXContainerItemProxy */;
+		};
+		CE7A0F522C4D1DD9008064F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7A0F352C4D1DD7008064F6 /* lixo-ios */;
+			targetProxy = CE7A0F512C4D1DD9008064F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE7A0F582C4D1DD9008064F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7A0F592C4D1DD9008064F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7A0F5B2C4D1DD9008064F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lixo-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N8HK2985T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desmobgames.lixo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7A0F5C2C4D1DD9008064F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lixo-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N8HK2985T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desmobgames.lixo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE7A0F5E2C4D1DD9008064F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N8HK2985T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desmobgames.lixo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lixo-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lixo-ios";
+			};
+			name = Debug;
+		};
+		CE7A0F5F2C4D1DD9008064F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N8HK2985T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desmobgames.lixo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lixo-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lixo-ios";
+			};
+			name = Release;
+		};
+		CE7A0F612C4D1DD9008064F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N8HK2985T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desmobgames.lixo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lixo-ios";
+			};
+			name = Debug;
+		};
+		CE7A0F622C4D1DD9008064F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N8HK2985T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desmobgames.lixo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lixo-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7A0F312C4D1DD7008064F6 /* Build configuration list for PBXProject "lixo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7A0F582C4D1DD9008064F6 /* Debug */,
+				CE7A0F592C4D1DD9008064F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7A0F5A2C4D1DD9008064F6 /* Build configuration list for PBXNativeTarget "lixo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7A0F5B2C4D1DD9008064F6 /* Debug */,
+				CE7A0F5C2C4D1DD9008064F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7A0F5D2C4D1DD9008064F6 /* Build configuration list for PBXNativeTarget "lixo-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7A0F5E2C4D1DD9008064F6 /* Debug */,
+				CE7A0F5F2C4D1DD9008064F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7A0F602C4D1DD9008064F6 /* Build configuration list for PBXNativeTarget "lixo-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7A0F612C4D1DD9008064F6 /* Debug */,
+				CE7A0F622C4D1DD9008064F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7A0F2E2C4D1DD7008064F6 /* Project object */;
+}
